@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        height: 40px;
+        width: 150px;
+        position:relative;
+        margin:auto;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+    <p style="font-weight:bold;">Screenshot name: </p>
+    <input id="filename" type="text" placeholder="Screenshot name">
+    </div>
+    <div style="padding-top:20px; place-items: center center;display: grid;">
+    <button id="capture">Take screenshot</button>
+    <button id="open-folder" style="margin-top: 5px!important;">Open folder</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
